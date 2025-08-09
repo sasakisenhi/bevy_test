@@ -1,0 +1,10 @@
+[profile.dev]
+incremental = true
+lto = false
+
+[profile.release]
+incremental = false
+lto = true
+
+[target.x86_64-pc-windows-msvc]
+linker = "rust-lld.exe"

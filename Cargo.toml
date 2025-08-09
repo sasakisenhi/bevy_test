@@ -1,0 +1,17 @@
+[package]
+name = "bevy_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.16"
+env_logger = "0.11.8"
+log = "0.4.27"
+
+[profile.dev]
+incremental = true
+lto = false
+
+[profile.release]
+incremental = false
+lto = true
