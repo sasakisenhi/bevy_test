@@ -11,6 +11,7 @@ fn main() {
         .add_systems(Startup, hello)
         .run();
     //test
+    kkkkkkk
 }
 
 fn hello() {
