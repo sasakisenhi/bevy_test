@@ -10,6 +10,7 @@ fn main() {
         .add_systems(Startup, print_adapter_info)
         .add_systems(Startup, hello)
         .run();
+    //test
 }
 
 fn hello() {
