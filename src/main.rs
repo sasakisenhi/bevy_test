@@ -21,7 +21,7 @@ fn print_adapter_info(adapter_info: Option<Res<RenderAdapterInfo>>) {
         println!("GPU: {}", info.name);
         println!("Backend: {:?}", info.backend);
     } else {
-        println!("GPU情報が取得できませんでした");
+        println!("GPU情報が取得できませんでした/テストです");
     }
 }
 
